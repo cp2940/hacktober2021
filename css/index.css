@@ -96,6 +96,7 @@ a:hover {
 .index .jumbotron-transparent .container-fluid {
   position: relative;
   z-index: 1;
+  overflow: auto;
 }
 
 .index .jumbotron h1 {
@@ -603,8 +604,13 @@ div#content div#contribution-rules ul li {
   padding: 1em;
   margin: 10px;
   height: 110px;
-  max-width: 120px;
+  max-width: auto;
   border-radius: 4px;
+  /* padding: 1em;
+  margin: 10px;
+  height: 110px;
+  max-width: 120px;
+  border-radius: 4px; */
 }
 
 .countdown-timer li span {
